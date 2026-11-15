@@ -1,5 +1,5 @@
 """
-Record your own labelled landmarks from a webcam. NOT TESTED in the build environment (needs a camera and the MediaPipe model).
+Record labelled landmarks from a webcam. NOT TESTED in the build environment (needs a camera and the MediaPipe model).
 
 Static sign : python scripts/collect_data.py --label A --signer s01 --model-path hand_landmarker.task
               SPACE starts and stops recording; frames with a detected hand are appended to data/my_static_landmarks.csv
