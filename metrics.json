@@ -1,0 +1,32 @@
+{
+ "static": {
+  "model": "lr",
+  "cv_accuracy": 0.9829166666666667,
+  "classes": [
+   "claw",
+   "fist",
+   "flat_thumb_in",
+   "ok_ring",
+   "open_palm",
+   "peace",
+   "pinky_up",
+   "point",
+   "three",
+   "thumbs_up"
+  ]
+ },
+ "dynamic": {
+  "model": "rf",
+  "cv_accuracy": 1.0,
+  "classes": [
+   "circle",
+   "circle_ccw",
+   "open_close",
+   "push",
+   "swipe_down",
+   "swipe_up",
+   "tap",
+   "wave"
+  ]
+ }
+}
